@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.nsnik.nrs.aysmgridview.AddActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Name"
+        android:padding="16dp"
+        android:id="@+id/addName"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Surname"
+        android:layout_below="@id/addName"
+        android:padding="16dp"
+        android:id="@+id/addSurName"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        app:fabSize="normal"
+        android:id="@+id/saveName"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_done_white_48dp"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
